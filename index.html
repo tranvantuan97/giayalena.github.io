@@ -4,32 +4,31 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Công ty TNHH Giầy Alena Việt Nam</title>
-  <meta name="description" content="Trang thông tin nhanh của Công ty TNHH Giầy Alena Việt Nam. Nhấn để vào Fanpage Facebook, gọi hotline hoặc xem chỉ đường." />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27><circle cx=%2732%27 cy=%2732%27 r=%2732%27 fill=%27%23005bbb%27/><text x=%2732%27 y=%2739%27 font-size=%2730%27 text-anchor=%27middle%27 fill=%27white%27 font-family=%27Arial%27>A</text></svg>">
-  <!-- Open Graph for rich previews -->
+  <meta name="description" content="Trang chính thức — kết nối nhanh đến Fanpage, Zalo và thông tin liên hệ." />
+  <link rel="icon" href="logo-alena.png">
+  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Công ty TNHH Giầy Alena Việt Nam" />
-  <meta property="og:description" content="Nhấn để vào Fanpage Facebook, gọi hotline hoặc xem chỉ đường." />
-  <meta property="og:image" content="https://via.placeholder.com/1200x630.png?text=Giay+Alena+Viet+Nam" />
-  <meta property="og:url" content="https://giayalena.github.io" />
+  <meta property="og:description" content="Trang chính thức — kết nối nhanh đến Fanpage, Zalo và thông tin liên hệ." />
+  <meta property="og:image" content="logo-alena.png" />
   <style>
-    :root{
-      --bg:#f6f8fb; --card:#fff; --text:#1f2937; --muted:#6b7280; --primary:#0ea5e9; --primary-fore:#fff; --ring:rgba(14,165,233,.25);
-    }
+    :root{--bg:#f6f8fb; --card:#fff; --text:#1f2937; --muted:#6b7280; --primary:#0ea5e9; --primary-fore:#fff; --ring:rgba(14,165,233,.25);}
     html,body{height:100%;}
     body{margin:0;background:var(--bg);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--text);}
     .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:32px;}
-    .card{width:100%;max-width:720px;background:var(--card);border-radius:18px;box-shadow:0 12px 30px rgba(2,6,23,.08);padding:28px;}
+    .card{width:100%;max-width:820px;background:var(--card);border-radius:18px;box-shadow:0 12px 30px rgba(2,6,23,.08);padding:28px;}
     .top{display:flex;gap:18px;align-items:center;margin-bottom:12px;}
-    .logo{width:64px;height:64px;border-radius:14px;background:#e5f3fe;display:flex;align-items:center;justify-content:center;font-weight:800;color:#0b79bf;font-size:28px;box-shadow:inset 0 0 0 2px #cde8fb;}
-    h1{font-size:22px;line-height:1.25;margin:0;}
-    .desc{margin:6px 0 14px;color:var(--muted);}
-    .grid{display:grid;grid-template-columns:1fr;gap:10px;}
-    @media (min-width:560px){ .grid{grid-template-columns:1fr 1fr;} }
+    .logo{width:72px;height:72px;border-radius:14px;background:#e5f3fe;display:flex;align-items:center;justify-content:center;box-shadow:inset 0 0 0 2px #cde8fb;overflow:hidden;}
+    .logo img{width:100%;height:100%;object-fit:cover;}
+    h1{font-size:24px;line-height:1.25;margin:0;}
+    .desc{margin:6px 0 16px;color:var(--muted);}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px;}
+    @media (min-width:640px){ .grid{grid-template-columns:1fr 1fr;} }
     .btn{display:flex;align-items:center;justify-content:center;gap:10px;text-decoration:none;padding:14px 16px;border-radius:12px;border:1px solid #e5e7eb;background:#fff;color:#111827;font-weight:600;transition:.18s ease;}
     .btn:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(2,6,23,.08);}
     .btn.primary{background:var(--primary);color:var(--primary-fore);border-color:transparent;box-shadow:0 0 0 0 var(--ring);}
     .btn.primary:hover{box-shadow:0 0 0 6px var(--ring);}
+    .btn svg{width:18px;height:18px;display:block}
     .meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px;color:var(--muted);font-size:14px;}
     .meta span{display:flex;gap:8px;align-items:center;}
     .footer{margin-top:16px;color:#9aa3af;font-size:12px;text-align:center;}
@@ -41,21 +40,35 @@
   <div class="wrap">
     <main class="card" role="main">
       <div class="top">
-        <div class="logo" aria-hidden="true">A</div>
+        <div class="logo" aria-hidden="true"><img src="logo-alena.png" alt="Logo Giầy Alena"></div>
         <div>
           <div class="badge">Official</div>
           <h1>Công ty TNHH Giầy Alena Việt Nam</h1>
-          <p class="desc">Trang đón khách — kết nối nhanh đến Fanpage, Zalo và thông tin liên hệ.</p>
+          <p class="desc">Trang chính thức — kết nối nhanh đến Fanpage, Zalo và thông tin liên hệ.</p>
         </div>
       </div>
 
       <div class="hero" role="img" aria-label="Ảnh nhà máy (minh họa)"></div>
 
       <div class="grid" role="navigation" aria-label="Liên kết nhanh">
-        <a class="btn primary" href="https://www.facebook.com/Giay.Alena.vn" target="_blank" rel="noopener">🌐 Fanpage Facebook</a>
-        <a class="btn" href="https://zalo.me/0814020555" target="_blank" rel="noopener">💬 Nhắn Zalo</a>
-        <a class="btn" href="tel:0814020555">📞 Gọi Hotline: 0814 020 555</a>
-        <a class="btn" href="https://maps.google.com/?q=Th%C3%B4n+V%E1%BB%B1c+Ph%C3%A1c,+X%C3%A3+Y%C3%AA%CC%82n+%C4%90i%CC%A3nh,+Thanh+H%C3%B3a" target="_blank" rel="noopener">🗺️ Chỉ đường Google Maps</a>
+        <a class="btn primary" href="https://www.facebook.com/Giay.Alena.vn" target="_blank" rel="noopener">
+          <!-- Facebook icon -->
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07C2 17.1 5.66 21.2 10.44 22v-7.02H7.9v-2.91h2.54v-2.22c0-2.5 1.49-3.89 3.77-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.62.77-1.62 1.56v1.89h2.76l-.44 2.91h-2.32V22C18.34 21.2 22 17.1 22 12.07z"/></svg>
+          Fanpage Facebook
+        </a>
+        <a class="btn" href="https://zalo.me/4164250009722766870" target="_blank" rel="noopener">
+          <!-- Zalo-like icon (Z letter) -->
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10" fill="currentColor" opacity=".12"/><path d="M7 16h8v-1.4H9.9l7.1-7.6V7H9.1L7 8.9v1.5h6.3L7 17v-1z" fill="currentColor"/></svg>
+          Nhắn Zalo
+        </a>
+        <a class="btn" href="tel:0814020555">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.62 10.79a15.1 15.1 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h3.5a1 1 0 011 1c0 1.24.2 2.45.57 3.57a1 1 0 01-.24 1.02l-2.2 2.2z"/></svg>
+          Gọi Hotline: 0814 020 555
+        </a>
+        <a class="btn" href="https://maps.app.goo.gl/NnHZvmaSMyDEDyyY6" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>
+          Chỉ đường Google Maps
+        </a>
       </div>
 
       <div class="meta" role="contentinfo">
